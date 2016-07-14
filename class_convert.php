@@ -7,7 +7,7 @@ class Convert {
     public $sort_key = 'name2';
 
     public function __construct($file)
-    {      $r= gf;      vbcb
+    {
 		$text = file_get_contents($file);
 		$lines = preg_split("/\n/",$text);
 		$tem_a = array();
